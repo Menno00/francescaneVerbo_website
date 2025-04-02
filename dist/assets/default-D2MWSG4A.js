@@ -1,1 +1,0 @@
-import{p,o as s,f as _,w as o,b as e,m as r,g as c,h as l,A as u}from"./index-BtbbZjYl.js";const A={__name:"default",setup(m){return(f,i)=>{const t=l,a=p("router-view"),n=u;return s(),_(c,null,{default:o(()=>[e(t),e(r,null,{default:o(()=>[e(a)]),_:1}),e(n)]),_:1})}}};export{A as default};
