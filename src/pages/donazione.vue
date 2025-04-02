@@ -1,6 +1,6 @@
 <template>
     <v-container fluid class="pa-4" >  
-      <h1 class="text-center">Archivio Fotografico</h1>
+      <h1 class="text-center">Donazioni</h1>
       <!-- Content Section -->
       <v-row justify="center" class="my-8">
         
@@ -49,7 +49,7 @@
             <!-- PDF Document Link -->
             <v-row justify="center">
               <v-col cols="12" class="text-center">
-                <v-btn href="../assets/documents/carisma.pdf" target="_blank" class="mt-4 text-center" color="deep-purple accent-4" rounded>
+                <v-btn :href=urlPdf target="_blank" class="mt-4 text-center" color="deep-purple accent-4" rounded>
                     INFO DEPLIANT
                 </v-btn>
               </v-col>
@@ -95,10 +95,9 @@
     </v-container>
   </template>
   
-  <script>
-  export default {
-    name: "CarismaMissioniPage",
-  };
+  <script setup>
+
+  const urlPdf = new URL('@/assets/documents/Infofondazione.pdf', import.meta.url).href
   </script>
   
   <style scoped>

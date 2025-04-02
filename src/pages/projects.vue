@@ -4,7 +4,7 @@
     <v-row class="mb-6">
       <v-col cols="12" class="text-center">
         <h1 class="display-2 font-weight-bold">Progetti 2025</h1>
-        <p class="subtitle-1 text-secondary">
+        <p class="subtitle-1">
           Esplora i progetti missionari in tutto il mondo delle Suore Francescane.
         </p>
       </v-col>
